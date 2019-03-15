@@ -1,2 +1,5 @@
-# gitbook-site
-gitbook site
+# 狂欢马克思 个人笔记 (gitbook-site)
+
+这是一个基于gitbook的个人笔记（其实就是个电子书），正在逐渐完善~~
+
+
