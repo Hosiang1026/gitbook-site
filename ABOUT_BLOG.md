@@ -55,7 +55,13 @@ build时出错，“gitbook Error: ENOENT: no such file or directory, stat......
     
     $ gitbook serve .\ 运行
 
-
+    $ gh-pages -d _book 部署master分支
+    
+    cp -r _book/* .
+    git add .
+    git commit -m "Publish book"
+    
+    git push -u origin gh-pages
 
 ## 安装Gitbook
 
