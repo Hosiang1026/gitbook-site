@@ -28,7 +28,7 @@
             "showLevel": true
         },
         "github": {
-            "url": "https://github.com/Hosiang1026/gitbook-backup"
+            "url": "https://github.com/Hosiang1026/gitbook-site"
         },
         "include-codeblock": {
             "template": "ace",
@@ -41,7 +41,7 @@
             "modify_format": "YYYY-MM-DD HH:mm:ss"
         },
         "edit-link": {
-            "base": "https://github.com/Hosiang1026/gitbook-backup/blob/master",
+            "base": "https://github.com/Hosiang1026/gitbook-site/blob/master",
             "label": "编辑本页"
         },
         "anchor-navigation-ex": {

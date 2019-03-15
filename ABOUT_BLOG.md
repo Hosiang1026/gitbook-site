@@ -54,6 +54,13 @@ build时出错，“gitbook Error: ENOENT: no such file or directory, stat......
     $ gitbook build 构建
     
     $ gitbook serve .\ 运行
+    
+    $ gh-pages -d _book 部署gh-pages分支
+    
+     $ cd _book/* .
+     $ git add .
+     $ git commit -m "Publish book"
+     $ git push -u origin gh-pages
 
 
 
