@@ -93,63 +93,63 @@ book.json是gitbook的配置文件，包括插件的配置文件，通过插件�
 
 贴一下我的book.json
 
-```json
-cat book.json 
-{
-    "title": "huangwjwork's notes",
-    "description": "好记性不如烂笔头，记录日常遇到的问题及学习的成果",
-    "author": "huangwjwork",
-    "output.name": "site",
-    "language": "zh-hans",
-    "gitbook": "3.2.3",
-    "root": ".",
-    "links": {
-        "sidebar": {
-            "Home": "https://huangwj.app"
+```
+    cat book.json 
+    {
+        "title": "huangwjwork's notes",
+        "description": "好记性不如烂笔头，记录日常遇到的问题及学习的成果",
+        "author": "huangwjwork",
+        "output.name": "site",
+        "language": "zh-hans",
+        "gitbook": "3.2.3",
+        "root": ".",
+        "links": {
+            "sidebar": {
+                "Home": "https://huangwj.app"
+            }
+        },
+        "plugins": [
+            "github@^2.0.0",
+            "edit-link@^2.0.2",
+            "anchors@^0.7.1",
+            "include-codeblock@^3.0.2",
+            "splitter@^0.0.8",
+            "tbfed-pagefooter@^0.0.1",
+            "expandable-chapters-small@^0.1.7",
+            "anchor-navigation-ex@0.1.8"
+        ],
+    
+        "pluginsConfig": {
+            "theme-default": {
+                "showLevel": true
+            },
+            "github": {
+                "url": "https://github.com/huangwjwork/gitbook"
+            },
+            "include-codeblock": {
+                "template": "ace",
+                "unindent": true,
+                "edit": true
+            },
+            "tbfed-pagefooter": {
+                "copyright": "Copyright © huangwjwork 2017",
+                "modify_label": "该文件修订时间：",
+                "modify_format": "YYYY-MM-DD HH:mm:ss"
+            },
+            "edit-link": {
+                "base": "https://github.com/huangwjwork/gitbook/edit/master",
+                "label": "Edit This Page"
+            },
+            "anchor-navigation-ex": {
+                "isRewritePageTitle": false,
+                "tocLevel1Icon": "fa fa-hand-o-right",
+                "tocLevel2Icon": "fa fa-hand-o-right",
+                "tocLevel3Icon": "fa fa-hand-o-right"
+            }
+    
+    
         }
-    },
-    "plugins": [
-        "github@^2.0.0",
-        "edit-link@^2.0.2",
-        "anchors@^0.7.1",
-        "include-codeblock@^3.0.2",
-        "splitter@^0.0.8",
-        "tbfed-pagefooter@^0.0.1",
-        "expandable-chapters-small@^0.1.7",
-        "anchor-navigation-ex@0.1.8"
-    ],
-
-    "pluginsConfig": {
-        "theme-default": {
-            "showLevel": true
-        },
-        "github": {
-            "url": "https://github.com/huangwjwork/gitbook"
-        },
-        "include-codeblock": {
-            "template": "ace",
-            "unindent": true,
-            "edit": true
-        },
-        "tbfed-pagefooter": {
-            "copyright": "Copyright © huangwjwork 2017",
-            "modify_label": "该文件修订时间：",
-            "modify_format": "YYYY-MM-DD HH:mm:ss"
-        },
-        "edit-link": {
-            "base": "https://github.com/huangwjwork/gitbook/edit/master",
-            "label": "Edit This Page"
-        },
-        "anchor-navigation-ex": {
-            "isRewritePageTitle": false,
-            "tocLevel1Icon": "fa fa-hand-o-right",
-            "tocLevel2Icon": "fa fa-hand-o-right",
-            "tocLevel3Icon": "fa fa-hand-o-right"
-        }
-
-
     }
-}
 ```
 
 编写完成后在book.json文件目录执行如下命令安装插件
@@ -215,7 +215,7 @@ info: initialization is finished
 
 * 本地查看，默认端口4000，可以更改
 
-  ```shell
+```shell
   $ gitbook serve
   Live reload server started on port: 35729
   Press CTRL+C to quit ...
