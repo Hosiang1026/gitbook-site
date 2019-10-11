@@ -41,4 +41,6 @@ deploy:
   email: $GIT_EMAIL
   on:
     branch: master
+    
+ #https://www.jianshu.com/p/41478a0ea104
  
